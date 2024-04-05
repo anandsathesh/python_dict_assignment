@@ -1,0 +1,16 @@
+import pandas as pd 
+mylist =[1,2,3]
+mylist.append(4)
+mylist.remove(3)
+mylist[0]=10
+print("updated list:",mylist)
+mydict={'name':'anand','age':19,'city':'chennai'}
+mydict['gender']='male'
+del mydict['age']
+mydict['city']='banglore'
+print("updated dictionary:",mydict)
+myset ={1,2,3}
+myset.add(5)
+myset.remove(3)
+myset.discard(1)
+print("updated set ",myset)
